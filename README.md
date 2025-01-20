@@ -20,4 +20,4 @@ To get the server up and running and display the list of users, navigate to the 
 ```bash
 node server.js
 
-jdasdjsajdsajd
+```
