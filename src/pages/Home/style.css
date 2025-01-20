@@ -1,0 +1,100 @@
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    flex-direction: column;
+}
+
+h1 {
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.2);
+    border: 1px solid #fff;
+    max-width: 50%;
+    width: 400px;
+    margin-bottom: 20px;
+
+    & button {
+        border-radius: 30px;
+        background-color: #16C47F;
+        height: 40px;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all .2s;
+        font-size: 1rem;
+    }
+
+    & button:hover {
+        opacity: 0.8;
+    }
+
+    & input {
+        border: 1px solid #1D1616;
+        border-radius: 30px;
+        height: 40px;
+        background-color: #1D1616;
+        color: #fff;
+        font-size: 1rem;
+        padding-left: 10px;
+        outline: none;
+    }
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1D1616;
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+
+    & p {
+        color: #fff;
+        font-weight: bold;
+
+        & span {
+            font-weight: normal;
+        }
+    }
+
+    & button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+
+        & img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    & button:hover {
+        opacity: 0.5;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    form {
+        max-width: 100%;
+        width: 90%;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
