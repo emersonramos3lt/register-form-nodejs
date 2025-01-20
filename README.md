@@ -28,4 +28,4 @@ This will ensure that the server is restarted and updated in real-time as you ma
 
 📷 Screenshot
 
-![Screenshot](./screenshot/img1.PNG)
+![Screenshot](./screenshot/img1.png)
