@@ -16,8 +16,16 @@ I utilized **React hooks** such as **useState, useEffect, and useRef** to manage
 # **🔧 How to Start the Server**
 
 To get the server up and running and display the list of users, navigate to the folder where your server.js file is located. Then, in the Visual Studio Code terminal, run the following command:
-
 ```bash
 node server.js
-
 ```
+
+Alternatively, if you'd like the server to update automatically whenever you make changes to the code without having to restart it manually, use the following command:
+```bash
+node --watch server.js
+```
+This will ensure that the server is restarted and updated in real-time as you make changes to your code.
+
+📷 Screenshot
+
+![Screenshot](./screenshot/img1.PNG)
