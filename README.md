@@ -1,8 +1,23 @@
-# React + Vite
+# **📋 User Registration Form with Backend Integration**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project features a **user registration form** that integrates **React** on the frontend with a **Node.js backend**, storing user data in a **MongoDB** database. The frontend fetches and displays a list of existing users stored in the database, and allows for new user registrations. When a new user enters their name, age, and email in the input fields, the form dynamically updates the list of users, showcasing real-time data interaction.
 
-Currently, two official plugins are available:
+I utilized **React hooks** such as **useState, useEffect, and useRef** to manage state, fetch data from the backend, and handle form inputs efficiently. The project demonstrates seamless integration between frontend and backend technologies, ensuring a smooth user experience with dynamic updates and a **responsive design**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# **🛠️ Main Features**
+- **React for building the user interface**
+- **Node.js for backend integration**
+- **MongoDB for user data storage**
+- **useState for managing form state**
+- **useEffect for data fetching**
+- **useRef for input handling**
+- **Real-time updates on the user list with new entries**
+
+# **🔧 How to Start the Server**
+
+To get the server up and running and display the list of users, navigate to the folder where your server.js file is located. Then, in the Visual Studio Code terminal, run the following command:
+
+```bash
+node server.js
+
+jdasdjsajdsajd
